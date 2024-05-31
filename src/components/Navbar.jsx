@@ -72,9 +72,9 @@ export const Navbar = () => {
               <div className="d-flex align-items-center">
                 <div
                   className="btn bg-white text-success mx-1"
-                  onClick={() => navigate("/")}
+                  onClick={() => navigate("/about")}
                 >
-                  <b>Home</b>
+                  <b>ABOUT</b>
                 </div>
                 <div className="btn bg-white text-success mx-1">
                   <Link className="text-decoration-none" to="/cartelement">
@@ -85,7 +85,7 @@ export const Navbar = () => {
                   className="btn bg-white text-danger mx-1"
                   onClick={handleLogout}
                 >
-                  <b>Logout</b>
+                  <b>LOGOUT</b>
                 </div>
               </div>
             )}
