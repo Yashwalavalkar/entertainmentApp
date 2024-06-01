@@ -1,6 +1,6 @@
 require('dotenv').config();
 const mongoose = require('mongoose');
-const mongoURI = process.env.MONGO_URI;
+const mongoURI = "mongodb+srv://gofoodpro:gofoodpro0077@cluster0.squ7qcj.mongodb.net/gofoodpro?retryWrites=true&w=majority"
  
 const mongoDB = async () => {
     try {
