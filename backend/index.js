@@ -1,7 +1,7 @@
-require('dotenv').config();
 const express = require('express');
 const app = express();
-const port = 8000;
+require('dotenv').config();
+const PORT = 8000;
 const mongoDB = require('./db');
 const cors=require('cors');
 // Connect to MongoDB
@@ -33,6 +33,6 @@ app.get('/', (req, res) => {
 });
 
 // Start the server
-app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`);
+app.listen(PORT, () => {
+    console.log(`Example app listening on port ${PORT}`);
 });
