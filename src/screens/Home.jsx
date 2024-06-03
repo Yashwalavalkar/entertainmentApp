@@ -128,7 +128,7 @@ import Cart from "../components/Cart";
                 .map((filteredItem) => (
                   
                   <div key={filteredItem._id} className="col-12 col-md-6 col-lg-3 m-3">
-                    {console.log(filteredItem)}
+                    
                     <Cart 
                     foodItem={filteredItem}
                     options={filteredItem.options[0]}

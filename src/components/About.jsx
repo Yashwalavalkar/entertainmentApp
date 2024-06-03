@@ -13,8 +13,8 @@ export const About = () => {
         </div>
 
         
-        <footer class="bg-dark text-light py-4 mt-15">
-  <div class="container text-center">
+        <footer className="bg-dark text-light py-4 mt-15">
+  <div className="container text-center">
     <p>&copy; 2024 Your Food Website. All rights reserved.</p>
   </div>
   
