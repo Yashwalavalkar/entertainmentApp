@@ -12,7 +12,7 @@ import Cart from "../components/Cart";
   const [search,setsearch]=useState('');
   
   const loadData= async ()=>{
-    let response = await fetch("http://localhost:8080/api/fooddata",{
+    let response = await fetch("https://entertainmentapp-2.onrender.com/api/fooddata",{
       method:'POST',
       headers:{
         'Content-Type':'application/json'

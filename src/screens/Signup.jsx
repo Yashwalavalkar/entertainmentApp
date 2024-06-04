@@ -8,7 +8,7 @@ export const Signup = () => {
       alert('Account is created Successfully')
         //synthetic event
         e.preventDefault();
-        const response = await fetch("http://localhost:8080/api/createuser",{
+        const response = await fetch("https://entertainmentapp-2.onrender.com/api/createuser",{
             method:'POST',
             headers:{
                 'Content-Type':'application/json'
