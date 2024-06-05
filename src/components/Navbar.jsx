@@ -18,7 +18,11 @@ export const Navbar = () => {
         backgroundColor: "black",
         backgroundSize: "cover",
         color: "transparent",
+<<<<<<< HEAD
         borderRadius: "30px",
+=======
+        borderRadius: "50px",
+>>>>>>> 94903dcf0098ec2294bb751f4d9d9fe9a398aab9
       }}
     >
       <div className="container-fluid">
