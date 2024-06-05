@@ -11,7 +11,7 @@ const cors=require('cors');
 app.use(cors());
 // Middleware to allow requests from http://localhost:3000 
 app.use((req, res, next) => {
-    res.setHeader("Access-Control-Allow-Origin", "https://chimerical-fox-c0869d.netlify.app");
+    res.setHeader("Access-Control-Allow-Origin", "https://stalwart-dasik-46b39c.netlify.app");
     res.header(
         "Access-Control-Allow-Headers",
         "Origin, X-Requested-With, Content-Type, Accept"
