@@ -18,7 +18,7 @@ export const Navbar = () => {
         backgroundColor: "black",
         backgroundSize: "cover",
         color: "transparent",
-        borderRadius: "55px",
+        borderRadius: "50px",
       }}
     >
       <div className="container-fluid">
@@ -69,7 +69,7 @@ export const Navbar = () => {
                 </Link>
               </div>
             ) : (
-              <div className="d-flex align-items-center">
+              <div className="d-flex flex-wrap align-items-center">
                 <div
                   className="btn bg-white text-success mx-1"
                   onClick={() => navigate("/about")}
