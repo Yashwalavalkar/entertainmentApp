@@ -16,7 +16,7 @@ Use npm run build to build the project for deployment.
 
 ### `Additional Information`
 
-Video - [https://www.youtube.com/watch?v=wYPhnJ_JFrg For more information about the website, watch the video:](https://drive.google.com/file/d/1ijIDDOM-2pDLS6SSYRiz72vqnx2inp8-/view?usp=sharing)
+Video - https://drive.google.com/file/d/1ijIDDOM-2pDLS6SSYRiz72vqnx2inp8-/view?usp=sharing
 
 ## Deployment link
 https://bejewelled-blancmange-325c72.netlify.app
