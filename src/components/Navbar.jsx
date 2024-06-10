@@ -69,25 +69,25 @@ export const Navbar = () => {
                 </Link>
               </div>
             ) : (
-              <div className="d-flex align-items-center">
-                <div
-                  className="btn bg-white text-success mx-1"
-                  onClick={() => navigate("/about")}
-                >
+              <div className="row">
+              <div className="col-12 col-md-4 d-flex justify-content-center mb-2 mb-md-0">
+                <div className="btn bg-white text-success mx-1" onClick={() => navigate("/about")}>
                   <b>ABOUT</b>
                 </div>
+              </div>
+              <div className="col-12 col-md-4 d-flex justify-content-center mb-2 mb-md-0">
                 <div className="btn bg-white text-success mx-1">
                   <Link className="text-decoration-none" to="/cartelement">
                     <b>BOOKMARKS</b>
                   </Link>
                 </div>
-                <div
-                  className="btn bg-white text-danger mx-1"
-                  onClick={handleLogout}
-                >
+              </div>
+              <div className="col-12 col-md-4 d-flex justify-content-center">
+                <div className="btn bg-white text-danger mx-1" onClick={handleLogout}>
                   <b>LOGOUT</b>
                 </div>
               </div>
+            </div>
             )}
           </div>
         </div>
