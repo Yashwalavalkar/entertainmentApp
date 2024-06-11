@@ -47,7 +47,7 @@ export const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0"></ul>
           <div className="d-flex">
-            {localStorage.getItem("authToken") ? (
+            {!localStorage.getItem("authToken") ? (
               <div className="d-flex">
                 <Link
                   className="btn bg-white text-success mx-1 fs-5 active"
