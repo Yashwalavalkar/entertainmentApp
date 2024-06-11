@@ -10,7 +10,7 @@ export const About = () => {
         </div>
         <div className='mt-5 fs-3 d-flex justify-content-center p-4 font-weight-bold'>
        <p className='font-weight-bold'>Welcome to CineFlix, where cinematic magic meets boundless entertainment. Our mission is to ignite imagination, evoke emotions, and celebrate the art of storytelling. Founded by Yash Walavalkar, we are committed to showcasing captivating films and series that resonate with audiences worldwide. Join us on our cinematic adventure as we immerse ourselves in the diverse and mesmerizing world of movies and entertainment.</p> 
-        </div>
+        </div> 
 
         
         <footer className="bg-dark text-light py-4 mt-15">
